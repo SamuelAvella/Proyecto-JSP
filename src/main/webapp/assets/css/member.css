@@ -1,0 +1,47 @@
+/*MEMBER CSS*/
+body {
+    background-color: #ffffff;
+    color: #343a40;
+    min-height: 100vh;
+    margin: 0;
+    padding-top: 56px; /* Espacio entre la barra de navegación y el contenido */
+}
+
+.main-container {
+    display: flex;
+    flex-grow: 1;
+    margin-top: 10px; /* Espacio adicional entre la barra lateral y el contenido */
+}
+
+.main-content {
+    flex-grow: 1;
+    padding: 20px;
+    background-color: #f8f9fa;
+}
+
+.user-list {
+    background-color: white;
+    padding: 20px;
+    border-radius: 8px;
+    box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.1);
+}
+
+thead {
+    background-color: #28a745;
+    color: white;
+}
+
+/* Estilos para las tarjetas de los miembros */
+.member-card {
+    margin-bottom: 20px;
+}
+
+.btn-edit{
+    background-color: #fff !important; 
+}
+
+.btn-delete{
+    background-color: #fff !important; 
+}
+
+

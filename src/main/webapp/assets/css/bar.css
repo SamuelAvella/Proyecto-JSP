@@ -1,0 +1,20 @@
+.navbar {
+    background-color: #28a745;
+    color: white;
+}
+
+.sidebar {
+    width: 200px;
+    background-color: #f8f9fa; /* Fondo de la barra lateral */
+    padding-top: 10px;
+    box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.1);
+    margin-top: 20px; /* Espacio adicional entre la barra lateral y la barra de navegación */
+}
+
+.sidebar .nav-link {
+    color: #343a40;
+}
+
+.sidebar .nav-link:hover {
+    background-color: #e9ecef; /* Color de fondo cuando se pasa el ratón por encima */
+}

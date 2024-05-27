@@ -1,0 +1,130 @@
+/* Importing Google Font */
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@400;900&display=swap');
+
+input {
+  caret-color: red;
+}
+
+body {
+  background-color: rgb(0, 123, 255);
+  background-size: cover;
+  background-position: center;
+  margin: 0;
+  width: 100vw;
+  height: 100vh;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-family: 'Poppins', sans-serif;
+  overflow: hidden;
+}
+
+.container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  min-height: 100vh;
+}
+
+.form-login {
+  position: relative;
+  width: 350px;
+  padding: 40px;
+  border-radius: 20px;
+  background: #ecf0f3;
+  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1), 6px 6px 6px #cbced1, -6px -6px 6px white;
+  text-align: center;
+}
+
+.form-login h1 {
+  font-size: 1.8rem;
+  color: #1DA1F2;
+  font-weight: 900;
+  letter-spacing: 1px;
+  margin-bottom: 20px;
+}
+
+.form-login .form-floating {
+  position: relative;
+  margin-bottom: 1rem;
+}
+
+.form-login .form-floating input {
+  width: 100%;
+  padding: 10px 20px;
+  height: 50px;
+  font-size: 14px;
+  background: #ecf0f3;
+  border: none;
+  border-radius: 50px;
+  box-shadow: inset 6px 6px 6px #cbced1, inset -6px -6px 6px white;
+  transition: box-shadow 0.3s ease, padding-top 0.3s ease, padding-bottom 0.3s ease;
+}
+
+.form-login .form-floating input:focus {
+  box-shadow: 0 0 10px rgba(0, 123, 255, 0.5);
+}
+
+.form-login .form-floating input::placeholder {
+  color: transparent;
+}
+
+.form-login .form-floating label {
+  position: absolute;
+  top: 50%;
+  left: 20px;
+  transform: translateY(-50%);
+  font-size: 1rem;
+  color: #6c757d;
+  transition: all 0.3s ease;
+  pointer-events: none;
+  background-color: rgba(236, 240, 243, 0.5); /* Fondo transparente */
+}
+
+.form-login .form-floating input:not(:placeholder-shown) + label,
+.form-login .form-floating input:focus + label {
+  top: -10px;
+  left: 20px;
+  font-size: 0.75rem;
+  color: #007bff;
+  background: #ecf0f300;
+  padding: 0 5px;
+}
+
+.form-login .form-check a {
+  color: #007bff;
+  text-decoration: none;
+  transition: color 0.3s ease;
+  position: absolute;
+  bottom: -20px;
+  right: 20px;
+  background-color: #6c757d;
+  padding: 5px 10px;
+  border-radius: 5px;
+  color: white;
+  font-size: 0.8rem;
+}
+
+.form-login .form-check a:hover {
+  color: #0056b3;
+  background-color: #343a40;
+}
+
+.form-login .btn {
+  background: #1DA1F2;
+  border: none;
+  height: 50px;
+  border-radius: 50px;
+  font-weight: 900;
+  box-shadow: 6px 6px 6px #cbced1, -6px -6px 6px white;
+  transition: background-color 0.3s ease, box-shadow 0.3s ease;
+}
+
+.form-login .btn:hover {
+  background: #0056b3;
+  box-shadow: none;
+}
+
+.text-muted {
+  color: #6c757d !important;
+}

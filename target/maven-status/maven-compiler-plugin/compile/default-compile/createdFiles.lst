@@ -1,0 +1,17 @@
+members\AuthService.class
+views\LoginView.class
+views\MemberView.class
+members\AuthInterface.class
+views\ModifyMemberView.class
+members\Member.class
+members\UsersService.class
+connectionpool\ConnectionPool.class
+views\SideMenuView.class
+members\User.class
+views\NavbarView.class
+crud\CRUD.class
+views\HomeView.class
+views\AddMemberView.class
+views\RegisterView.class
+members\MemberService.class
+views\ProfileView.class
